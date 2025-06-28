@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "rag-data-service": {
+      "command": "./build/rag-mcp-proxy.exe",
+      "args": [],
+      "env": {
+        "MCP_HTTP_ENDPOINT": "http://localhost:8080/mcp"
+      },
+      "cwd": "/absolute/path/to/rag-data-service",
+      "description": "RAG Data Service via stdio-to-HTTP proxy for Claude Desktop compatibility"
+    }
+  }
+} 

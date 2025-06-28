@@ -1,0 +1,12 @@
+{
+  "note": "This RAG Data Service implements MCP over HTTP, not stdio",
+  "http_mcp_endpoint": "http://localhost:8080/mcp",
+  "service_info": {
+    "name": "rag-data-service",
+    "description": "RAG Data Service for document processing and knowledge base querying",
+    "transport": "HTTP",
+    "port": 8080,
+    "endpoint": "/mcp"
+  },
+  "usage": "Start the service with './rag-data-service.exe' and send MCP requests to http://localhost:8080/mcp"
+} 
